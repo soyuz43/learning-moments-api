@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "12345",
+      "loginStatus": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "67890",
+      "loginStatus": false
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "abc123",
+      "loginStatus": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to Async/Await",
+      "body": "Async/await improves JavaScript asynchronous operations, making them easier to write and read compared to older methods like callbacks and promises.",
+      "datePosted": "2024-04-15",
+      "dateEdited": "",
+      "userID": 1,
+      "topicID": 1
+    },
+    {
+      "id": 2,
+      "title": "Exploring the New Features of ES2021",
+      "body": "The latest JavaScript update brings several powerful features that enhance the language's capabilities, such as logical assignment operators and String.prototype.replaceAll.",
+      "datePosted": "2024-04-16",
+      "dateEdited": "2024-04-17",
+      "userID": 2,
+      "topicID": 2
+    },
+    {
+      "id": 3,
+      "title": "Understanding React Hooks",
+      "body": "React Hooks provide a new and powerful way to handle state and side effects in functional components without writing a class.",
+      "datePosted": "2024-04-18",
+      "dateEdited": "",
+      "userID": 3,
+      "topicID": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "JavaScript Asynchronous Programming"
+    },
+    {
+      "id": 2,
+      "name": "Modern JavaScript Features"
+    },
+    {
+      "id": 3,
+      "name": "React Development"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userID": 1,
+      "postID": 1
+    },
+    {
+      "id": 2,
+      "userID": 2,
+      "postID": 1
+    },
+    {
+      "id": 3,
+      "userID": 3,
+      "postID": 2
+    },
+    {
+      "id": 4,
+      "userID": 1,
+      "postID": 3
+    }
+  ]
+}
